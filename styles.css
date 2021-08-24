@@ -15,6 +15,7 @@ body {
   margin-top: 5%;
   padding: 1%;
   border-radius: 0.5rem;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0.68, 0.2);
 }
 /*Left Card*/
 .left-container {
@@ -30,11 +31,12 @@ body {
   background: blue;
   border-radius: 0.5rem;
   box-shadow: 0px 1px 0px rgba(0, 0, 0.68, 0.2);
-  transition: box-shadow 1s;
+  transition: box-shadow 1s, transform 0.5s;
   cursor: pointer;
 }
 .card:hover {
   box-shadow: 5px 15px 5px rgba(0, 0, 0.68, 0.2);
+  transform: rotate3d(2, 0, 0, -25deg);
 }
 .card:nth-child(1) {
   background: #723ec8;
